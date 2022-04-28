@@ -1,2 +1,2 @@
 # Tinder-Clone
-https://keerthishankar-punchithaya.github.io/Tinder-Clone/
+https://tinder-clone-page.netlify.app/
