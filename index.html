@@ -18,7 +18,7 @@
       height: 100vh;
       /* vh ==> viewport height */
       background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-        url("https://drive.google.com/uc?id=176BpLyAQugoQkLgCkCcWat_u6AcmgbXs");
+        url("/images/tinder_bg3.jpeg");
       /* 0.1 - 0.9 - 1 */
       background-size: cover;
       background-position: center;
@@ -163,6 +163,7 @@
       font-weight: 500;
 
     }
+
     .careers {
       text-transform: uppercase;
       font-size: 20px;
@@ -183,17 +184,47 @@
       text-transform: uppercase;
       font-size: 20px;
       letter-spacing: 0rem;
+      line-height: -11rem;
     }
 
     .logos {
       flex-direction: column;
       position: absolute;
       left: 800px;
-      bottom: -29rem;
+      bottom: -31rem;
       line-height: 2rem;
       font-weight: 500;
+      font-size: 28px;
+      letter-spacing: 0.5rem;
+    }
+
+    .others-sec {
+      flex-direction: column;
+      position: absolute;
+      left: 1150px;
+      bottom: -37rem;
+      line-height: 2.5rem;
+      font-weight: 500;
+      font-size: 20px;
 
     }
+
+    .info1 {
+      position: absolute;
+      left: 100px;
+      bottom: -45rem;
+      font-weight: bolder;
+    }
+
+    .app {
+      position: absolute;
+      left: 400px;
+      bottom: -45rem;
+      border-radius: 30px;
+      border-color: black;
+
+    }
+
   </style>
   <title>Tinder Clone</title>
 </head>
@@ -295,12 +326,31 @@
 
   <section class="logos">
     <h1 class="social">Social</h1>
-    <i class="fa-brands fa-instagram"></i>
-    <i class="fa-brands fa-tiktok"></i>
-    <i class="fa-brands fa-youtube"></i>
-    <i class="fa-brands fa-twitter"></i>
-    <i class="fa-brands fa-facebook-f"></i>
+    <br>
+    <a href=""> <i class="fa-brands fa-instagram"></i></a>
+    <a href=""> <i class="fa-brands fa-tiktok"></i> </a>
+    <a href=""> <i class="fa-brands fa-youtube"></i> </a>
+    <a href=""> <i class="fa-brands fa-twitter"></i> </a>
+    <a href=""> <i class="fa-brands fa-facebook-f"></i></a>
   </section>
+  <section class="others-sec">
+    <a href="#">FAQ</a>
+    <br>
+    <a href="#">Destinations</a>
+    <br>
+    <a href="#">Press Room</a>
+    <br>
+    <a href="#">Contact</a>
+    <br>
+    <a href="#">Promo Code</a>
+    <br>
+  </section>
+  <h1 class="info1"><b>GET THE APP!</b></h1>
+<section class="app">
+
+  <a href="# "><img src="/images/app store.PNG" alt="app store"></a>
+  <a href="# "><img src="/images/play store.PNG" alt="play store"></a>
+</section>
 </body>
 
 </html>
